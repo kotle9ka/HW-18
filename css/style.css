@@ -9,6 +9,10 @@ p {
   color: #333;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   background-color: #f5f5f5;
 }
@@ -219,23 +223,27 @@ header .contact-info {
 }
 
 .portfolio-items {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-items-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
 }
 
 .portfolio-item {
   background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 30 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  width: calc(33.333% - 40px);
+  /* width: calc(33.333% - 40px); */
 }
 
 .portfolio-item img {
-  width: 100%;
-  height: auto;
+  width: 370px;
+  height: 294px;
   margin-bottom: 10px;
 }
 
@@ -248,11 +256,116 @@ header .contact-info {
   font-size: 16px;
   color: #666;
 }
+.one {
+  width: 370px;
+  height: 404px;
+  top: 262px;
+  left: 215px;
+  gap: 0px;
+  border: 1px;
+  opacity: 0px;
+}
+
+.two {
+  width: 370px;
+  height: 404px;
+  top: 262px;
+  left: 615px;
+  gap: 0px;
+  border: 1px;
+  opacity: 0px;
+}
+
+.tree {
+  width: 370px;
+  height: 404px;
+  top: 262px;
+  left: 1015px;
+  gap: 0px;
+  border: 1px;
+  opacity: 0px;
+}
+
+.four {
+  width: 370px;
+  height: 404px;
+  top: 696px;
+  left: 215px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.five {
+  width: 370px;
+  height: 404px;
+  top: 696px;
+  left: 615px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.six {
+  width: 370px;
+  height: 404px;
+  top: 696px;
+  left: 1015px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.seven {
+  width: 370px;
+  height: 404px;
+  top: 1130px;
+  left: 215px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.eight {
+  width: 370px;
+  height: 404px;
+  top: 1130px;
+  left: 615px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.nine {
+  width: 370px;
+  height: 404px;
+  top: 1130px;
+  left: 1015px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
 
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #333;
+
   color: #fff;
   box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  background-image: url(../img/section/ikons/footer-bg.png);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: start;
+  color: #fff;
+}
+
+.portfolio-footer-container {
+  display: flex;
+  justify-content: start;
+  color: #fff;
+}
+
+.footer-list-item p {
+  color: #fff;
 }
