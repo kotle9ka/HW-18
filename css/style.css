@@ -345,6 +345,48 @@ header .contact-info {
   opacity: 0px;
 }
 
+.clients-container {
+  width: 1170px;
+  height: 184px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.clients-container h1 {
+  margin-left: 653px;
+}
+
+.regular-client-list {
+  display: flex;
+  margin-left: 251px;
+}
+
+.logo {
+  width: 106px;
+  height: 60px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.regular-clients {
+  width: 170px;
+  height: 92px;
+  border: solid #757575;
+  border-radius: 4px 0px 0px 0px;
+  margin-left: 25px;
+  opacity: 0px;
+}
+
+.regular-clients:hover {
+  width: 170px;
+  height: 92px;
+  border: solid #00aaff;
+  fill: #007bff;
+  border-radius: 4px 0px 0px 0px;
+  margin-left: 25px;
+  opacity: 0px;
+}
+
 footer {
   text-align: center;
   padding: 20px 0;
@@ -368,4 +410,36 @@ footer {
 
 .footer-list-item p {
   color: #fff;
+}
+
+.instagramm {
+  fill: #2a2a2a;
+}
+
+.instagramm:hover {
+  fill: #03a9f4;
+}
+
+.twitter {
+  fill: #2a2a2a;
+}
+
+.twitter:hover {
+  fill: #03a9f4;
+}
+
+.facebook {
+  fill: #2a2a2a;
+}
+
+.facebook:hover {
+  fill: #03a9f4;
+}
+
+.linked {
+  fill: #2a2a2a;
+}
+
+.linked:hover {
+  fill: #03a9f4;
 }
